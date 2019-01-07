@@ -5,11 +5,190 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Andrew S BIO</title>
+    <title>Andrew Swartz</title>
+
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="shortcut icon" type="image/png" href="./assets/images/acs.png">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+
+
 </head>
 
 <body>
-    test
+    <div class="container">
+        <!------------------------- NAVBAR ------------------------->
+        <nav class="navbar">
+            <h2 id="about-link"><a href="#about">About</a></h2>
+            <h2 id="resume-link"><a href="#experience">Experience</a></h2>
+            <h2 id="portfolio-link"><a href="#portfolio">Portfolio</a></h2>
+            <h2 id="contact-link"><a href="#contact">Contact</a></h2>
+        </nav>
+
+        <!------------------------- "ABOUT" SECTION ------------------------->
+        <section class="about-container" id="about">
+     
+            <img id="profileimage" src="./assets/images/swartz.jpg" 
+           
+
+            <div class="about-container-copy">
+                <h1>Andrew Swartz</h1>
+                <hr>
+                <br>
+                <p>I've spent most of my professional career working for companies in the rail industry. I currently work for 
+                    Transco Railway products as the controller. TRPI is a nationwide rail repair service provider for freight and tank cars.
+
+                  
+            </div>
+
+        </section>
+
+        <!---------------------------------------------- "EXPERIENCE" SECTION ------------------------------------------->
+        <section class="experience-container" id="experience">
+            <h1>Experience</h1>
+            <hr>
+            <div id="job-container">
+
+                <!----------------------- ITS----------------------->
+                <div class="job" id="its-job">
+                    <img src="./assets/images/ITS-ConGlobal-logo.jpg">
+                    <p id="ITS">ITS</p>
+                    <p>Sr. Financial Analyst</p>
+                    <p>Chicago</p>
+                    <p>Feb '12 - May '16</p>
+
+                </div>
+
+                <!----------------------- TRPI ----------------------->
+                <div class="job" id="trpi-job">
+                    <img src="./assets/images/TRPI.jpg">
+                    <p id="trpi">Transco Railway</p>
+                    <p>Controller</p>
+                    <p>Chicago, IL</p>
+                    <p>June 2016 - Current</p>
+                </div>
+                <!----------------------- Northwestern Icon ----------------------->
+                <div class="job" id="northwestern-job">
+                    <img src="assets/images/Northwestern-Logo.png">
+                    <p id="northwestern">Northwestern Coding Bootcamp</p>
+                    <p>Student</p>
+                    <p>Chicago, IL</p>
+                    <p>Aug '18 - Current</p>
+                </div>
+
+            </div>
+
+            <div id="job-description-container">
+                <!------------------------ Leo Description ---------------------->
+                <div id="job-description-leo">
+                    <p>Installed new monthly review process and timelines to ensure consistency in reporting across the company.
+                            Run monthly financial business reviews between Regional managers and Executives.
+                            Led the budget process involved that more than 2,000 employees, 60 locations and 10 separate service lines.
+                            Created new pricing model and methods for new businesses that brought in $7.7M in annual revenues in single calendar year.
+                            Installed and Implemented new Financial Reporting Software that automates previously labor intensive reporting practices in addition to allowing us to track  report more than two dozen new KPI’s.
+                            
+                </div>
+
+                <!---------------------------Arc Description ------------------>
+                <div id="job-description-arc">
+                    <p>Manage Month end close process, prepare balance sheet and income and cash flow statements for consolidated entity and individual divisions. 
+                            Record and approve journal entries to ensure accuracy
+                            Expand use of company ERP systems to streamline financial reporting and increase visibility
+                            Shortened Month end close process 10 days by automating old processes.
+                            Create new reporting package to link operating ratios to financial statements. 
+                            </p>
+                </div>
+
+
+                <!-------------------- Northwestern Description -------------------->
+                <div id="job-description-northwestern">
+                    <p>Northwestern Job Description - TBD</p>
+
+                </div>
+
+            </div>
+        </section>
+
+        <!------------------------------------------------ "PORTFOLIO" SECTION --------------------------------------------------->
+        <section class="portfolio-container" id="portfolio">
+            <h1>Portfolio</h1>
+            <hr>
+            <div class="portfolio-buttons">
+                <!-- <button id="professional-button" class="button">Professional</button> -->
+                <button id="games-button" class="button">Games</button>
+                <!-- <button id="artwork-button" class="button">Artwork</button> -->
+            </div>
+
+            <div class="portfolio-container-imgs">
+                <!---------------------------- Professional---------------------->
+                <div id="portfolio-professional">Professional Websites go here</div>
+                <!--------------------------- Games ----------------------->
+                <div id="portfolio-games">
+                    <div class="port-img hangman"><a href="https://andrewcswartz.github.io/Psychic-Game/">
+                            <h2 id="hangman">Word Guess</h2>
+                           
+                            <img src="./assets/images/WordGuess.jpg">
+                        </a>
+                      
+                    </div>
+
+                    <div class="port-img unit-4-game"><a href="https://andrewcswartz.github.io/Unit-4-Game/">
+                            <h2 id="unit-4-game">Unit-4-Game</h2>
+                            <img src="assets/images/pic10.png">
+                        </a>
+                    </div>
+
+                    <div class="port-img trivia-game"><a href="https://andrewcswartz.github.io/TriviaGame/">
+                            <h2 id="trivia-game">Trivia Game</h2>
+                            <img src="./assets/images/Pat1.jpg">
+                        </a>
+                    </div>
+
+
+                   
+                </div>
+             
+
+            </div>
+
+        </section>
+
+
+        <section class="contact-container" id="contact">
+
+            <h1>Contact</h1>
+            <hr>
+            <form>
+                <input placeholder="Name" type="text" name="name" required="">
+                <br>
+                <input placeholder="Enter email" type="email" name="email" required="">
+                <br>
+                <textarea placeholder="Your Message" type="text" name="message"></textarea>
+                <br>
+                <button id="contact-submit">Submit</button>
+            </form>
+
+        </section>
+
+
+        <footer>
+
+            <div class="footer-container">
+                <a href="https://github.com/andrewcswartz"><img id="github" src="assets/images/Footer/GithubLogo.png"></a>
+                <a href="https://www.linkedin.com/in/andrewcswartz/"><img id="linkedin" src="assets/images/Footer/LinkedinLogo.jpg"></a>
+                <a href="mailto:andrewcswartz@gmail.com"><img id="gmail" src="assets/images/Footer/GmailLogo.png"></a>
+            </div>
+
+        </footer>
+
+    </div>
+
 </body>
+<!------------------------- SCRIPT TAGS ------------------------->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="assets/javascript/javascript-anchorAnimation.js"></script>
+<script src="assets/javascript/javascript-resume.js"></script>
+<script src="assets/javascript/javascript-portfolio.js"></script>
 
 </html>
